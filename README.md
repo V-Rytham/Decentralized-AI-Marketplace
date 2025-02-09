@@ -24,6 +24,44 @@ Welcome to the Decentralized AI Model Marketplace, where AI developers can list 
 | **Authentication** | MetaMask, JWT                 | Secure login using Web3 wallets          |
 | **Payments**       | Stripe, Crypto (USDT, ETH)    | Flexible payment methods     
 
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```
+git clone https://github.com/your-username/ai-marketplace.git
+cd ai-marketplace
+```
+
+### 2️⃣ Install Dependencies
+Frontend
+```
+cd frontend
+npm install
+npm run dev
+```
+backend
+```
+cd backend
+npm install
+npm start
+```
+🔗 Smart Contract Deployment (For Developers)
+
+1️⃣ Install Hardhat
+```
+npm install --save-dev hardhat
+```
+2️⃣ Compile & Deploy Smart Contracts
+```
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network polygon
+```
+3️⃣ Verify Smart Contract
+```
+npx hardhat verify --network polygon <contract_address>
+markdown
+```
+
 ## 🌎 How It Works?
 
 1️⃣ **AI Developers Upload Their Models** 🛠️  
@@ -39,4 +77,7 @@ Welcome to the Decentralized AI Model Marketplace, where AI developers can list 
 3️⃣ **AI Models Run on Decentralized Compute Power** ⚡  
    - Instead of relying on **expensive cloud servers**, AI runs on **Akash/Golem**.  
    - This reduces **hosting costs** and ensures **open access**.  
+
+
+
 
