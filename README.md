@@ -76,7 +76,65 @@ markdown
 
 3️⃣ **AI Models Run on Decentralized Compute Power** ⚡  
    - Instead of relying on **expensive cloud servers**, AI runs on **Akash/Golem**.  
-   - This reduces **hosting costs** and ensures **open access**.  
+   - This reduces **hosting costs** and ensures **open access**.
+
+
+## 📂 Folder Structure
+
+```
+AI-Marketplace/
+│── 📜 README.md                # Project documentation
+│── 📜 .gitignore               # Files to ignore in Git
+│── 📜 package.json             # Dependencies and scripts
+│── 📜 .env                     # Environment variables
+│── 📂 frontend/                # Frontend application
+│   ├── 📜 package.json         # Frontend dependencies
+│   ├── 📂 public/              # Static assets (logos, images)
+│   ├── 📂 src/                 # Source code
+│   │   ├── 📂 components/      # Reusable UI components
+│   │   ├── 📂 pages/           # Page components (Next.js/React)
+│   │   ├── 📂 utils/           # Helper functions
+│   │   ├── 📂 services/        # API calls to backend
+│   │   ├── 📜 App.js           # Main React App
+│   │   ├── 📜 index.js         # Entry point
+│   ├── 📂 styles/              # CSS/SCSS files
+│── 📂 backend/                 # Backend server
+│   ├── 📜 server.js            # Express.js server
+│   ├── 📂 routes/              # API routes
+│   ├── 📂 controllers/         # Business logic
+│   ├── 📂 models/              # Database schemas
+│   ├── 📂 middleware/          # Authentication, error handling
+│   ├── 📂 utils/               # Utility functions
+│── 📂 blockchain/              # Smart contracts (Solidity)
+│   ├── 📜 contract.sol         # Main smart contract
+│   ├── 📜 deploy.js            # Deployment script
+│   ├── 📂 test/                # Smart contract tests
+│   ├── 📂 scripts/             # Automation scripts
+│── 📂 storage/                 # Decentralized storage files
+│   ├── 📂 ipfs/                # IPFS-related scripts
+│   ├── 📂 filecoin/            # Filecoin-related scripts
+│── 📂 database/                # Database configuration (MongoDB/PostgreSQL)
+│   ├── 📜 connection.js        # Database connection setup
+│   ├── 📂 migrations/          # Database migrations
+│── 📂 docs/                    # Documentation, API references
+│── 📂 scripts/                 # Helper scripts (deployment, automation)
+│── 📂 tests/                   # Unit & integration tests
+│── 📂 config/                  # Config files (e.g., API keys)
+│── 📂 logs/                    # Log files (for debugging)
+
+```
+
+## Explanation of Key Folders
+- ✅ frontend/ → Contains the React/Next.js frontend.
+- ✅ backend/ → Contains the Node.js/Express backend that handles API requests.
+- ✅ blockchain/ → Smart contracts (Solidity) and blockchain-related files.
+- ✅ storage/ → Handles decentralized storage (IPFS, Filecoin).
+- ✅ database/ → Manages database setup and schema (MongoDB/PostgreSQL).
+- ✅ docs/ → API documentation and project notes.
+- ✅ tests/ → Automated testing files.
+- ✅ config/ → Environment variables, API keys, and configuration settings.
+
+
 
 
 
